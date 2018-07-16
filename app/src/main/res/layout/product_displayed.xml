@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/productDisplayed"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/productImage"
+        android:layout_width="match_parent"
+        android:layout_height="@android:dimen/thumbnail_height" />
+
+    <TextView
+        android:id="@+id/productName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingEnd="10dp"
+        android:paddingStart="20dp"
+        android:paddingTop="15dp"
+        android:text="Name:"
+        android:textSize="@dimen/NormalTextSize" />
+
+    <TextView
+        android:id="@+id/productDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingEnd="10dp"
+        android:paddingStart="20dp"
+        android:paddingTop="15dp"
+        android:text="@string/DescriptionTV"
+        android:textSize="@dimen/NormalTextSize" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/productStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingEnd="10dp"
+            android:paddingStart="20dp"
+            android:paddingTop="15dp"
+            android:text="@string/StyleTv"
+            android:textSize="@dimen/NormalTextSize"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/productColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingEnd="10dp"
+            android:paddingStart="20dp"
+            android:paddingTop="15dp"
+            android:text="@string/ColorTV"
+            android:textSize="@dimen/NormalTextSize"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/productPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingEnd="10dp"
+            android:paddingStart="20dp"
+            android:paddingTop="15dp"
+            android:text="@string/PriceTv"
+            android:gravity="right"
+            android:textSize="@dimen/NormalTextSize"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>

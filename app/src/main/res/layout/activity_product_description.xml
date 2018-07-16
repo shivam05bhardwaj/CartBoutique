@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Controller.ProductDescription">
+
+    <ImageView
+        android:id="@+id/DetailImage"
+        android:layout_width="match_parent"
+            android:layout_height="@android:dimen/thumbnail_width" />
+    <TextView
+        android:id="@+id/DetailName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingEnd="10dp"
+        android:paddingStart="20dp"
+        android:paddingTop="15dp"
+        android:text="@string/NameTV"
+        android:textSize="@dimen/NormalTextSize" />
+
+
+    <TextView
+        android:id="@+id/DetailColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingEnd="10dp"
+        android:paddingStart="20dp"
+        android:paddingTop="15dp"
+        android:text="@string/ColorTV"
+        android:textSize="@dimen/NormalTextSize" />
+
+    <TextView
+        android:id="@+id/DetailStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingEnd="10dp"
+        android:paddingStart="20dp"
+        android:paddingTop="15dp"
+        android:text="@string/StyleTv"
+        android:textSize="@dimen/NormalTextSize" />
+
+    <TextView
+        android:id="@+id/DetailDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingEnd="10dp"
+        android:paddingStart="20dp"
+        android:paddingTop="15dp"
+        android:text="@string/DescriptionTV"
+        android:textSize="@dimen/NormalTextSize" />
+
+    <TextView
+        android:id="@+id/DetailPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingEnd="10dp"
+        android:paddingStart="20dp"
+        android:paddingTop="15dp"
+        android:text="@string/PriceTv"
+        android:gravity="right"
+        android:textSize="@dimen/NormalTextSize" />
+</LinearLayout>

@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">CartBoutique</string>
+    <string-array name="count">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+
+    </string-array>
+    <string name="total">Grand Total:</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <string name="facebook_app_id">481751962237223</string>
+    <string name="fb_login_protocol_scheme">fb481751962237223</string>
+
+    <string name="shopingCartMessage">Your Shopping Cart</string>
+    <string name="PriceTv">Price: </string>
+    <string name="CartButton">Cart</string>
+    <string name="NameTV">Name: </string>
+    <string name="ColorTV">Color: </string>
+    <string name="StyleTv">Style: </string>
+    <string name="DescriptionTV">Description: </string>
+    <string name="SkipMessage">Skip For Now </string>
+    <string name="QuantityTv">Quantity: </string>
+    <string name="GrandTotalTv">GrandTotal: </string>
+    <string name="NoItemInCart">There is no Item yet added</string>
+
+
+
+
+
+
+
+
+
+
+
+</resources>
